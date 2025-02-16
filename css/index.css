@@ -1,0 +1,38 @@
+#sctcontenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /*Define el elemento de referencia*/
+    padding: 25px;
+}
+
+/* Cuadro verde*/
+.morado {
+    background: #D6A2E8;
+    border: 2px solid #c56cf0;
+    width: 800px;
+    height: 500px;
+    display: flex; /*Para centrar los cuadros dentro*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.verde {
+    background: #32ff7e;
+    border: 2px solid #27ae60;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /*Se posiciona con respecto al elemento de referencia*/
+}
+
+.rosa {
+    background: #ffcccc;
+    border: 2px solid #ffb8b8;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
