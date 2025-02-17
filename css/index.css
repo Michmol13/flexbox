@@ -3,10 +3,9 @@
     justify-content: center;
     align-items: center;
     position: relative; /*Define el elemento de referencia*/
-    padding: 25px;
+    padding: 30px;
 }
 
-/* Cuadro verde*/
 .morado {
     background: #D6A2E8;
     border: 2px solid #c56cf0;
